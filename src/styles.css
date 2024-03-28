@@ -1,0 +1,42 @@
+.App {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  /*background-color: #EEEEEE;*/
+  background-color: #496989;
+  margin-left: 20vmax;
+  margin-right: 20vmax;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  min-width: 150px;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  ;
+}
+
+.text_input,
+.category_s,
+.priority,
+.due_date {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+input,
+select,
+button {
+  color: beige;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #9cafaa;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* Soft shadow with offset, blur, and color */
+}
+
+label {
+  color: #eeeeee;
+  display: flex;
+}
